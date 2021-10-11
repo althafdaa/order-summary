@@ -1,0 +1,122 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS RESET */
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  background: url(/images/pattern-background-desktop.svg) no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 50px auto;
+  width: 450px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+content h2 {
+  text-align: center;
+  font-weight: 900;
+  padding: 20px;
+  color: hsl(245, 75%, 52%);
+}
+
+content p {
+  text-align: center;
+  padding: 10px 50px;
+  color: hsl(223, 47%, 23%);
+}
+
+content .price {
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.price .annual-plan {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.annual-plan .annual {
+  font-weight: 700;
+}
+
+.annual-plan .dollar-price {
+  font-weight: 400;
+  color: hsl(223, 47%, 23%);
+}
+
+.price a {
+  padding-left: 100px;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* CONTENT */
+
+.payment {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment .proceed {
+  border-radius: 10px;
+  font-weight: 900;
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  color: white;
+  background: hsl(245, 75%, 52%);
+  padding: 10px 90px;
+  cursor: pointer;
+}
+
+.payment .proceed:active {
+  transform: scale(0.98);
+}
+
+.payment .cancel-order {
+  margin-top: 15px;
+  padding: 10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.payment .cancel-order:active {
+  transform: scale(0.98);
+}
+
+/* PAYMENT */
+
+/* GENERAL */
