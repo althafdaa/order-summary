@@ -40,6 +40,21 @@ body {
   .container {
     width: 90%;
   }
+
+  content .price {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  content img {
+    margin: 10px auto;
+  }
+
+  content .price a {
+    margin-top: 10px;
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 800px) {
